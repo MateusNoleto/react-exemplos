@@ -1,4 +1,5 @@
 import Title from "../src/components/title/Title"
+import Subtitle from "../src/components/subtitle/Subtitle"
 
 function HomePage (){
     return(
@@ -7,7 +8,7 @@ function HomePage (){
             <p>paragrafo</p>
             <Title>filho</Title>
             <p>outro paragrafo</p>
-            
+            <Subtitle text="outro subtitulo!"/>
 
         </div>
     )
